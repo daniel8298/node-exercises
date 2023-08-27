@@ -1,4 +1,4 @@
-///////////////////////////////////////////////////////  1 - 2
+
 class Person {
   firstName: string;
   lastName: string;
