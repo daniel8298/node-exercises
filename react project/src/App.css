@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: rgb(130, 250, 254);
+  padding: 20px;
+  margin-bottom: 150px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.divButtonsHome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100vh;
+  min-height: 100vh;
+  background-image: url("https://img.freepik.com/free-vector/road-trip-by-car-summer-vacation-travel-trip_107791-9489.jpg?w=1380&t=st=1694025642~exp=1694026242~hmac=f1f54122b974efb9801c92695f1593d067962a27e5f06b42bbee8cc8dad6e5e5");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.homeButtons {
+  margin: 10px;
+  width: 100px;
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: 0;
+  background-color: aqua;
+}
+
+.homeButtons:hover {
+  background-color: blanchedalmond;
+  transform: scale(1.2);
+  transition: 0.3s;
+  cursor: pointer;
+}
+#homeButtonTrip {
+  margin: 10px;
+  width: 220px;
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: 0;
+  background-color: aqua;
+}
+#homeButtonTrip:hover {
+  background-color: blanchedalmond;
+  transform: scale(1.2);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.divTrips {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100vh;
+  min-height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(6, 69, 71, 1) 0%,
+    rgba(9, 121, 97, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.divTripDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100vh;
+  min-height: 100vh;
+  padding: 8px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(6, 69, 71, 1) 0%,
+    rgba(9, 121, 97, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.loginButton {
+  margin: 10px;
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: 0;
+}
+.loginButton:hover {
+  background-color: blanchedalmond;
+  transform: scale(1.2);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.registrationButton {
+  margin: 10px;
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: 0;
+}
+.registrationButton:hover {
+  background-color: blanchedalmond;
+  transform: scale(1.2);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.allTrips {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TripsButton {
+  margin: 10px;
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: 0;
+  background-color: aqua;
+}
+
+.TripsButton:hover {
+  background-color: blanchedalmond;
+  transform: scale(1.2);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.TripDetailButton {
+  margin: 10px;
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: 0;
+  background-color: aqua;
+}
+.TripDetailButton:hover {
+  background-color: blanchedalmond;
+  transform: scale(1.2);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.TripsButtonDelete {
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: 0;
+  margin: 5px;
+  background-color: aqua;
+}
+h3 {
+  padding: 3px;
+}
+.TripsButtonDelete:hover {
+  background-color: blanchedalmond;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.newTripButton {
+  margin: 10px;
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: 0;
+  background-color: aqua;
+}
+.newTripButton:hover {
+  background-color: blanchedalmond;
+  transform: scale(1.2);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.tripCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  width: 300px;
+  background: linear-gradient(
+    90deg,
+    rgba(114, 249, 0, 1) 12%,
+    rgba(204, 249, 31, 1) 51%,
+    rgba(31, 249, 166, 1) 91%
+  );
+  margin: 10px;
+  color: rgb(4, 86, 250);
+  transition: transform 0.3s ease-in-out;
+}
+.tripCard:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.imgTrip {
+  width: 300px;
+  height: 150px;
+}
+
+.TripDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(242, 245, 240);
+  font-family: sans-serif;
+  font-size: medium;
+  font-weight: bold;
+}
+
+span {
+  margin: 5px;
+}
+
+.TitleTripDetail {
+  color: rgb(88, 247, 194);
+  margin: 5px;
+}
+
+.divNewTrip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100vh;
+  min-height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(6, 69, 71, 1) 0%,
+    rgba(9, 121, 97, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+label {
+  color: rgb(88, 247, 194);
+}
+
+.newTripForm {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-weight: bold;
+  width: 400px;
+}
+.buttonNewTrip {
+  margin: 10px 0;
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: 0;
+  background-color: aqua;
+}
+.buttonNewTrip:hover {
+  background-color: blanchedalmond;
+  transform: scale(1.2);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.inputNewTrip {
+  margin-bottom: 10px;
+}
+
+.userLoginForm {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.UserRegistrationForm {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.updateTripButton {
+  margin: 10px;
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: 0;
+}
+.updateTripButton:hover {
+  background-color: blanchedalmond;
+  transform: scale(1.2);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.updateTripForm {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-weight: bold;
+  width: 400px;
+}
+
+.buttonLogin {
+  margin: 10px;
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: 0;
+}
+.buttonLogin:hover {
+  background-color: blanchedalmond;
+  transform: scale(1.2);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.buttonRegistration {
+  margin: 10px;
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: 0;
+}
+.buttonRegistration:hover {
+  background-color: blanchedalmond;
+  transform: scale(1.2);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.div_Login_Registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vh;
+  background: rgb(69, 67, 113);
+  background: linear-gradient(
+    90deg,
+    rgba(69, 67, 113, 1) 0%,
+    rgba(6, 69, 71, 1) 15%,
+    rgba(9, 49, 121, 1) 74%,
+    rgba(7, 144, 138, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.button_Login_Registration {
+  margin: 10px 0;
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: 0;
+  background-color: aqua;
+}
+.button_Login_Registration:hover {
+  background-color: blanchedalmond;
+  transform: scale(1.2);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.loginRegistration_ButtonHome {
+  margin: 10px;
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: 0;
+  background-color: aqua;
+  margin-bottom: 100px;
+}
+.loginRegistration_ButtonHome:hover {
+  background-color: blanchedalmond;
+  transform: scale(1.2);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.inputLoginRegistration {
+  margin-bottom: 10px;
+}
